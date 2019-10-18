@@ -108,4 +108,36 @@ h2 {
     width: 100%;
     background-color: #ddd;
 }
-
+#skillset p {
+    color: white;
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.html {
+    width: 85%;
+    background-color: orange;
+}
+.css {
+    width: 70%;
+    background-color: blue;
+}
+.js {
+    width: 40%;
+    background-color: red;
+}
+.jquery {
+    width: 25%;
+    background-color: orchid;
+}
+.angular {
+    width: 20%;
+    background-color: maroon;
+}
+.python {
+    width: 5%;
+    background-color: grey;
+}
