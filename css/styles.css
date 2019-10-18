@@ -111,6 +111,16 @@ h2 {
 #skillset p {
     color: white;
 }
+#skill-bar {
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-left: 2px solid black;
+    border-right: 4px solid black;
+    border-top: 6px solid black;
+    border-bottom: 8px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
 .skills {
     text-align: right;
     padding-top: 10px;
