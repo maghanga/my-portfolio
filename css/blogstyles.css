@@ -23,6 +23,7 @@ body {
 }
 p {
     color: white;
+    margin-left: 50px;
 }
 #text-area {
     margin-top: 50px;
