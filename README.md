@@ -5,6 +5,8 @@
 This is the landing page to my portfolio as a software development student at Moringa School. It contains links and descriptions of projects that I have undertaken so far and information about me, for example; my education background, my job experience, hobbies and interests
 ## Installation Requirements
 * Web Browser
+## Live site
+- [my-portfolio](https://thinknehru.github.io/my-portfolio/)
 ## Known Bugs
 No known bugs on the site
 ## Technologies Used
