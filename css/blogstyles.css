@@ -21,3 +21,9 @@ body {
     background-color: #4CAF50;
     color: white;
 }
+p {
+    color: white;
+}
+#text-area {
+    margin-top: 50px;
+}
