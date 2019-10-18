@@ -27,3 +27,45 @@ p {
 #text-area {
     margin-top: 50px;
 }
+h2 {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    margin: 40px;
+}
+#icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 30px;  
+}
+#icon-bar a:hover {
+    background-color: #000000;
+}
+.github {
+    background-color: #333333;
+}
+.facebook {
+    background-color: #3B5998;
+    color: white;
+}
+  
+.twitter {
+    background-color: #55ACEE;
+    color: white;
+}
+.linkedin {
+    background-color: #007bb5;
+    color: white;
+}
