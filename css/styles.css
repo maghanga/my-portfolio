@@ -48,6 +48,7 @@
     color: white;
     padding: 40px;
     border-left: 4px solid black;
+    border-top: 6px solid black;
 }
 h2 {
     text-align: center;
@@ -74,19 +75,19 @@ h2 {
     background-color: #000000;
 }
 .github {
-    background: #333333;
+    background-color: #333333;
 }
 .facebook {
-    background: #3B5998;
+    background-color: #3B5998;
     color: white;
   }
   
   .twitter {
-    background: #55ACEE;
+    background-color: #55ACEE;
     color: white;
   }
   .linkedin {
-    background: #007bb5;
+    background-color: #007bb5;
     color: white;
   }
   
