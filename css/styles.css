@@ -18,4 +18,40 @@
     background-color: #4CAF50;
     color: white;
 }
-img 
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#hero-text {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+#about {
+    background-color: #4CAF50;
+}
+#about img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 55%;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 77px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
+#about p {
+    color: white;
+    padding: 40px;
+    border-left: 4px solid black;
+}
+h2 {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    color: white;
+}
