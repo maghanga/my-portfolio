@@ -62,10 +62,10 @@ body {
 #about img {
     border-radius: 50%;
     overflow: hidden;
-    width: 55%;
+    width: 77%;
     height: auto;
     margin-left: 40px;
-    margin-top: 77px;
+    margin-top: 90px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 #about-me p {
@@ -80,7 +80,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 }
 #about-me a {
-    color: var(--main-style-color);
+    color: #333333;
 }
 h2 {
     text-align: center;
@@ -156,7 +156,7 @@ h2 {
     text-align: right;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: var(--main-text-color);
+    color: var(--main-style-color);
 }
 .html {
     width: 85%;
