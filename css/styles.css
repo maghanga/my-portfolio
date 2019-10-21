@@ -1,32 +1,36 @@
  :root {
-     --main-bg-color: orange;
+     --main-bg-color: #D2D2D2;
  }
  :root {
      --main-text-color: black;
  }
 
+:root {
+    --main-style-color: #F39C12;
+}
 body {
     background-color: var(--main-bg-color);
 }
 .nav {
-    background-color: black;
+    background-color: var(--main-text-color);
     overflow: hidden;
 }
 .nav a {
     float: left;
-    color: #f2f2f2;
+    color: var(--main-bg-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 18px;
 }
 .nav a:hover {
-    background-color: #ddd;
+    background-color: var(--main-style-color);
     color: black;
 }
+
 .nav a.active {
-    background-color: var(--main-bg-color);
-    color: white;
+    background-color: var(--main-style-color);
+    color: var(--main-text-color);
 }
 #hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
@@ -40,11 +44,18 @@ body {
     text-align: center;
     top: 50%;
     left: 50%;
-    color: white;
+    color: var(--main-bg-color);
+}
+#hero-text p {
+    color: var(--main-bg-color);
 }
 .btn {
-    background-color: var(--main-bg-color);
+    background-color: var(--main-style-color);
     color: var(--main-text-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+.btn:hover {
+    color: var(--main-bg-color);
 }
 #about img {
     border-radius: 50%;
@@ -56,6 +67,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 #about-me p {
+    background-color: var(--main-style-color);
     color: var(--main-text-color);
     padding: 40px;
     border-left: 2px solid black;
@@ -68,6 +80,7 @@ h2 {
     text-align: center;
     padding: 50px;
     font-size: 30px;
+    background-color: var(--main-style-color);
     color: var(--main-text-color);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
     margin: 40px;
@@ -120,6 +133,7 @@ h2 {
     color: white;
 }
 #skill-bar {
+    background-color: var(--main-style-color);
     padding: 50px;
     margin-left: 150px;
     margin-right: 150px;
