@@ -22,6 +22,7 @@ body {
 }
 .nav a {
     float: left;
+    display: block;
     color: var(--main-bg-color);
     text-align: center;
     padding: 14px 16px;
@@ -37,6 +38,9 @@ body {
 .nav a.active {
     background-color: var(--main-style-color);
     color: var(--main-text-color);
+}
+.nav .icon {
+    display: none;
 }
 #hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
@@ -92,6 +96,7 @@ body {
 }
 #about-me a {
     color: var(--main-style-color);
+
 }
 h2 {
     text-align: center;
@@ -195,4 +200,25 @@ h2 {
 .python {
     width: 5%;
     background-color: grey;
+}
+
+@media screen and (max-width: 600px) {
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
+      float: right;
+      display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+    .nav.responsive {position: relative;}
+    .nav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+    .nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+  }
 }
