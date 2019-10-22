@@ -1,36 +1,42 @@
  :root {
-     --main-bg-color: green;
+     --main-bg-color: #D2D2D2;
  }
  :root {
-     --main-text-color: #D2D2D2;
+     --main-text-color: #333333;
  }
 
-:root {
-    --main-style-color: black;
+ :root {
+    --main-style-color: green;
 }
+ :root {
+    --my-font-family: 'Karla', sans-serif;
+
+ }
+
 body {
     background-color: var(--main-bg-color);
 }
 .nav {
-    background-color: var(--main-style-color);
+    background-color: var(--main-text-color);
     overflow: hidden;
 }
 .nav a {
     float: left;
-    color: var(--main-text-color);
+    color: var(--main-bg-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 18px;
+    font-family: var(--my-font-family);
 }
 .nav a:hover {
-    background-color: var(--main-bg-color);
-    color: black;
+    background-color: var(--main-style-color);
+    color: var(--main-bg-color);
 }
 
 .nav a.active {
-    background-color: var(--main-bg-color);
-    color: var(--main-style-color);
+    background-color: var(--main-style-color);
+    color: var(--main-text-color);
 }
 #hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
@@ -44,20 +50,23 @@ body {
     text-align: center;
     top: 50%;
     left: 50%;
-    color: var(--main-text-color);
+    color: var(--main-bg-color);
+    font-family: var(--my-font-family);
+
 }
 #hero-text p {
-    color: var(--main-text-color);
+    color: var(--main-bg-color);
     font-size: 20px;
-    
+    font-family: var(--my-font-family);
 }
 .btn {
-    background-color: var(--main-bg-color);
-    color: var(--main-style-color);
+    background-color: var(--main-style-color);
+    color: var(--main-text-color);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    font-family: var(--my-font-family);
 }
 .btn:hover {
-    color: var(--main-text-color);
+    color: var(--main-bg-color);
 }
 #about img {
     border-radius: 50%;
@@ -73,19 +82,23 @@ body {
     color: var(--main-text-color);
     padding: 40px;
     font-size: 20px;
-    border-left: 2px solid black;
+    border-radius: 2%;
+    font-family: var(--my-font-family);
+    /* border-left: 2px solid black;
     border-right: 4px solid black;
     border-top: 6px solid black;
-    border-bottom: 8px solid black;
+    border-bottom: 8px solid black; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 }
 #about-me a {
-    color: #333333;
+    color: var(--main-style-color);
 }
 h2 {
     text-align: center;
     padding: 50px;
+    font-family: karla,sans-serif;
     font-size: 30px;
+    border-radius: 2%;
     background-color: var(--main-bg-color);
     color: var(--main-style-color);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
@@ -103,7 +116,7 @@ h2 {
     text-align: center;
     padding: 16px;
     transition: all 0.3s ease;
-    color: white;
+    color: var(--main-bg-color);
     font-size: 30px;  
 }
 #icon-bar a:hover {
@@ -143,10 +156,11 @@ h2 {
     padding: 50px;
     margin-left: 150px;
     margin-right: 150px;
-    border-left: 2px solid black;
+    border-radius: 2%;
+    /* border-left: 2px solid black;
     border-right: 4px solid black;
     border-top: 6px solid black;
-    border-bottom: 8px solid black;
+    border-bottom: 8px solid black; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 }
 #skill-bar p {
