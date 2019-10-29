@@ -52,7 +52,7 @@ body {
 }
 #hero-text {
     text-align: center;
-    top: 50%;
+    top: 50%;z
     left: 50%;
     color: var(--main-bg-color);
     font-family: var(--my-font-family);
@@ -85,7 +85,7 @@ body {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
     padding: 40px;
-    font-size: 20px;
+    font-size: 15pt;
     border-radius: 2%;
     font-family: var(--my-font-family);
     /* border-left: 2px solid black;
@@ -94,9 +94,13 @@ body {
     border-bottom: 8px solid black; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 }
+/* #about-me p:first-letter {
+    font-size: 200%;
+    float: left;
+    line-height: 1;
+} */
 #about-me a {
     color: var(--main-style-color);
-
 }
 h2 {
     text-align: center;
@@ -108,6 +112,7 @@ h2 {
     color: var(--main-style-color);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
     margin: 40px;
+    text-shadow: 1px 1px 2px green;
 }
 #icon-bar {
     position: fixed;
