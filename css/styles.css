@@ -138,6 +138,8 @@ h2 {
 .card {
     border-radius: 2%;
     background-color: var(--main-bg-color);
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .card-columns {
     background-color: var(--main-bg-color);
