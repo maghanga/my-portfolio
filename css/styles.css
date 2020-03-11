@@ -16,32 +16,7 @@
 body {
     background-color: var(--main-bg-color);
 }
-.nav {
-    background-color: var(--main-text-color);
-    overflow: hidden;
-}
-.nav a {
-    float: left;
-    display: block;
-    color: var(--main-bg-color);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: var(--my-font-family);
-}
-.nav a:hover {
-    background-color: var(--main-style-color);
-    color: var(--main-bg-color);
-}
 
-.nav a.active {
-    background-color: var(--main-style-color);
-    color: var(--main-text-color);
-}
-.nav .icon {
-    display: none;
-}
 #hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://2e8ram2s1li74atce18qz5y1-wpengine.netdna-ssl.com/wp-content/uploads/2019/08/shutterstock_1137339098.jpg");
     height: 50%;
@@ -53,21 +28,35 @@ body {
 #hero-text {
     text-align: center;
     top: 50%;
-    left: 50%;
+    left: 50%;    
+    border-radius: 2%;
     color: var(--main-bg-color);
     font-family: var(--my-font-family);
-
+}
+#hero-text h1, p {
+    text-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.8), 0 4px 10px 0 rgba(0, 0, 0, 0.15);
 }
 #hero-text p {
     color: var(--main-bg-color);
     font-size: 20px;
     font-family: var(--my-font-family);
 }
-.btn {
+.contactButton {
     background-color: var(--main-style-color);
     color: var(--main-text-color);
+    border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
     font-family: var(--my-font-family);
+    margin: 5px;
+}
+
+.workButton {
+    background-color: var(--main-style-color);
+    color: var(--main-text-color);
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    font-family: var(--my-font-family);
+    margin: 5px;
 }
 .btn:hover {
     color: var(--main-bg-color);
@@ -78,7 +67,7 @@ body {
     width: 77%;
     height: auto;
     margin-left: 40px;
-    margin-top: 30px;
+    margin-top: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 #about-me p {
@@ -120,6 +109,7 @@ h2 {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.8), 0 4px 10px 0 rgba(0, 0, 0, 0.15);
 }
 #icon-bar a {
     display: block;
@@ -137,73 +127,32 @@ h2 {
 }
 .facebook {
     background-color: #3B5998;
-    color: white;
 }
   
 .twitter {
     background-color: #55ACEE;
-    color: white;
 }
 .linkedin {
     background-color: #007bb5;
-    color: white;
 }
-#skillset {
-    /* background-color: #4CAF50; */
-    /* box-sizing: border-box; */
-} 
-#skillset .container {
-    /* border-left: 2px solid black;
-    border-top: 4px solid black; */
-    width: 100%;
-    background-color: #ddd;
-}
-#skillset p {
-    color: white;
-}
-#skill-bar {
-    background-color: var(--main-bg-color);
-    padding: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
+.card {
     border-radius: 2%;
-    /* border-left: 2px solid black;
-    border-right: 4px solid black;
-    border-top: 6px solid black;
-    border-bottom: 8px solid black; */
+    background-color: var(--main-bg-color);
+}
+.card-columns {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 2%;
+    font-family: var(--my-font-family);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 }
-#skill-bar p {
-    color: var(--main-text-color);
-}
-.skills {
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: var(--main-style-color);
-}
-.html {
-    width: 85%;
-    background-color: orange;
-}
-.css {
-    width: 70%;
-    background-color: blue;
-}
-.js {
-    width: 40%;
-    background-color: red;
-}
-.jquery {
-    width: 25%;
-    background-color: orchid;
-}
-.angular {
-    width: 20%;
-    background-color: orangered;
-}
-.python {
-    width: 5%;
-    background-color: grey;
-}
 
+.btn {
+    background-color: var(--main-style-color);
+    color: var(--main-text-color);
+    border-radius: 5%;
+    font-family: var(--my-font-family);
+}
