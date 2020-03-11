@@ -77,17 +77,9 @@ body {
     font-size: 15pt;
     border-radius: 2%;
     font-family: var(--my-font-family);
-    /* border-left: 2px solid black;
-    border-right: 4px solid black;
-    border-top: 6px solid black;
-    border-bottom: 8px solid black; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 }
-/* #about-me p:first-letter {
-    font-size: 200%;
-    float: left;
-    line-height: 1;
-} */
+
 #about-me a {
     color: var(--main-style-color);
 }
@@ -158,18 +150,24 @@ h2 {
     font-family: var(--my-font-family);
 }
 
-#footer {
-    /* background-color: var(--main-style-color); */
-}
 
 #footer-text {
     background-color: var(--main-text-color);
     color: var(--main-bg-color);
-    padding: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 2%;
+    padding: 10px;
     font-family: var(--my-font-family);
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+#footer-text a {
+    color: var(--main-style-color);
+}
+
+#footer-text p {
+    margin-top: 10px;
+}
+
+#rights {
+    margin-bottom: 0px;
+    margin-top: 30px;
 }
