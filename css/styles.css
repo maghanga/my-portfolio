@@ -67,8 +67,9 @@ body {
     width: 77%;
     height: auto;
     margin-left: 40px;
-    margin-top: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 16px 0 rgba(0, 0, 0, 0.30);
 }
 #about-me p {
     background-color: var(--main-bg-color);
@@ -77,7 +78,7 @@ body {
     font-size: 15pt;
     border-radius: 2%;
     font-family: var(--my-font-family);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.8), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
 }
 
 #about-me a {
@@ -86,14 +87,14 @@ body {
 h2 {
     text-align: center;
     padding: 50px;
-    font-family: karla,sans-serif;
+    font-family: var(--my-font-family);
     font-size: 30px;
     border-radius: 2%;
     background-color: var(--main-bg-color);
     color: var(--main-style-color);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.8), 0 4px 16px 0 rgba(0, 0, 0, 0.15);
     margin: 40px;
-    text-shadow: 1px 1px 2px green;
+    text-shadow: 0px 0px 1px green;
 }
 #icon-bar {
     position: fixed;
@@ -128,19 +129,18 @@ h2 {
     background-color: #007bb5;
 }
 .card {
-    border-radius: 2%;
     background-color: var(--main-bg-color);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.8), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
 }
 .card-columns {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
-    padding: 20px;
+    padding: 15px;
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 2%;
     font-family: var(--my-font-family);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 }
 
 .btn {
